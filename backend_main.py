@@ -2,10 +2,10 @@ import csv
 import nltk
 from sentence_transformers import SentenceTransformer
 
-movie_script_path = ['TheAvengers1_Script.txt',
-                     'TheAvengers2_Script.txt',
-                     'TheAvengers3_Script.txt',
-                     'TheAvengers4_Script.txt']
+movie_script_path = ['data_imp/TheAvengers1_Script.txt',
+                     'data_imp/TheAvengers2_Script.txt',
+                     'data_imp/TheAvengers3_Script.txt',
+                     'data_imp/TheAvengers4_Script.txt']
 
 print("looking at movie data")
 
